@@ -1,6 +1,6 @@
 *.class
 .Classpath
 .project
-.ReadMe
 .settings/
 /.metadata/
+/bin/
