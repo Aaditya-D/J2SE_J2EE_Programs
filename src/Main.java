@@ -11,6 +11,9 @@ public class Main {
 //		p1.buffer();
 //		p1.scanner();
 		Program2 p2 = new Program2();
-		p2.op();
+//		p2.op();
+		Program3 p3 = new Program3();
+//		p3.withVar();
+		p3.withoutVar();
 	}
 }
