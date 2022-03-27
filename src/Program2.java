@@ -1,10 +1,3 @@
-
-/*
- * 
- * Program to implement different data types.
- * 
- */
-
 public class Program2 {
 
 		void op() {
@@ -23,6 +16,9 @@ public class Program2 {
 			System.out.println(c+"\t"+s+"\t"+i+"\t"+e+"\t"+sh+"\t"+f+"\t"+d+"\t"+l);
 		}
 	}
-	
+	public static void main(String[]arg) {
+		Program2 p2 = new Program2();
+		p2.op();
+	}
 	
 }

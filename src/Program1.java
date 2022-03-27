@@ -3,15 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-/*
- * 
- * Program to Take input from user
- * 
- */
+class Program1 {
 
-public class Program1 {
-
-	void buffer() {
+	static void buffer() {
 		
 		System.out.println("Enter your name: ");
 		BufferedReader buf = new BufferedReader(new InputStreamReader(System.in));
@@ -24,13 +18,18 @@ public class Program1 {
 		}
 	}
 	
-	void scanner() {
+	static void scanner() {
 		System.out.println("Enter your Name: ");
 		Scanner sc = new Scanner(System.in);
 		String Name = sc.next();
 		System.out.println("Enter your Age: ");
 		long age = sc.nextLong();
+		sc.close();
 		System.out.println("You've Entered: \n"+"Name: "+Name+"\tAge: "+age);
+	}
+	public static void main(String []a) {
+		scanner();
+		buffer();
 	}
 	
 }

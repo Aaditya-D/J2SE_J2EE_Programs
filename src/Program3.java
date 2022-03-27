@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Program3 {
 
-	void withVar(){
+	static void withVar(){
 		System.out.println("Enter Two variable: ");
 		Scanner sc = new Scanner(System.in);
 		int var1 = sc.nextInt();
@@ -12,10 +12,10 @@ public class Program3 {
 		var1 = var2;
 		var2 = temp;
 		System.out.println("After Swapping: "+var1+" "+var2);
-		
+		sc.close();
 	}
 	
-	void withoutVar() {
+	static void withoutVar() {
 		System.out.println("Enter Two variable: ");
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
@@ -25,6 +25,11 @@ public class Program3 {
 		b=a-b;
 		a=a-b;
 		System.out.println("After Swapping: "+a+" "+b);
+		sc.close();
+	}
+	public static void main(String []a) {
+		Program3.withVar();
+		Program3.withoutVar();
 	}
 	
 }
