@@ -1,7 +1,0 @@
-*.class
-.Classpath
-.project
-.settings/
-/.metadata/
-/bin/
-Team.java
