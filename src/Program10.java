@@ -3,7 +3,7 @@ public class Program10 {
 
 	int a;
 	Program10(){
-		this(5000);		//called parameterized constructor
+		this(5000);		//calls the parameterized constructor
 		System.out.println("Default called");
 	}
 	Program10(int a) {
