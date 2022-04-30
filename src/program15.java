@@ -29,7 +29,7 @@ class MountainBike extends Bike {
 
 }
 
-public class program15 {
+public class Program15 {
 	public static void main(String[] args) {
 		SportBike sb = new SportBike();
 		sb.wheels();
