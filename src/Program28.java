@@ -3,7 +3,7 @@ import java.io.Serializable;
 class Bean { // Outer class
 
 	class PojoClass { // inner member class
-
+		//PoJo Class
 		public String name;
 		public int age;
 		private double salary;
@@ -46,8 +46,8 @@ class Bean { // Outer class
 	}
 
 	static class BeanClass implements Serializable { // static inner class
-		// only private fields
-		private String name;
+		//Bean Class
+		private String name;//only private fields
 		private int age;
 		private double salary;
 
