@@ -34,7 +34,9 @@ P31- Program to demonstrate prepared statement and Batch Processing.
 P32- Program to demonstrate Anonymous Inner classes (With Class and Interface).
 P33- Program to demonstrate Lambda Expressions.
 P34- Program to demonstrate MultiThreading (Thread class).
-
+P35- Program to demonstrate MultiThreading (Runnable Interface).
+P36- Program to demonstrate MultiThreading (Implementation with Lambda Expressions).
+P37- Program to demonstrate MultiThreading (Methods and Thread Priority).
 
 
 
