@@ -23,7 +23,7 @@ public class Program35{
 	
 	public static void main(String[] args) {
 		
-		Runnable d1 = new D1();//making VAR of type Runnable 
+		Runnable d1 = new D1();//making VAR of type Runnable (UpCasting child method to parent reference)
 		Runnable d2 = new D2();
 		Runnable d3 = new D3();
 
