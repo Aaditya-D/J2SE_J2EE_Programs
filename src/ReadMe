@@ -37,7 +37,8 @@ P34- Program to demonstrate MultiThreading (Thread class).
 P35- Program to demonstrate MultiThreading (Runnable Interface).
 P36- Program to demonstrate MultiThreading (Implementation with Lambda Expressions).
 P37- Program to demonstrate MultiThreading (Methods and Thread Priority).
-P38- Program to demonstrate MultiThreading (Serialization and InterThread Communication).
-
+P38- Program to demonstrate MultiThreading (Synchronization and InterThread Communication).
+P39- Program to demonstrate MultiThreading (Thread Pool).
+P40- Program to demonstrate MultiThreading (Block Synchronization).
 
 
